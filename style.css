@@ -12,6 +12,11 @@ body {
   }
 }
 
+p {
+  font-size: 16px;
+  color: #546e7a;
+}
+
 .container {
   width: 100%;
   height: auto;
@@ -24,8 +29,46 @@ body {
 .card {
   width: 30%;
   background-color: #fff;
-  border: 0;
+  border: none;
   border-radius: 10px;
+}
+
+.img-header {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 3rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+.price-plan {
+  padding: 1rem;
+  margin: 1rem 0 1rem 0;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 5px;
+}
+
+button {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: #000;
+}
+
+.cancel-order {
+  margin-bottom: -1rem;
+}
+
+.cancel-order a {
+  text-decoration: none;
+  color: #546e7a;
 }
 
 @media (max-width: 992px) {
