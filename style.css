@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  background: url("images/pattern-background-desktop.svg") no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+@media (max-width: 992px) {
+  body {
+    margin: 0 auto;
+    background: url("images/pattern-background-mobile.svg") no-repeat;
+    background-color: hsl(225, 100%, 94%);
+  }
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
+
+.card {
+  width: 30%;
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 90%;
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
