@@ -53,10 +53,10 @@ I want to continue this project to collaborate with my other projects in the fut
 
 ### Useful resources
 
-- [Example resource 1](https://fonts.google.com/specimen/Red+Hat+Display) - This helped me for choosing the font what i want.
-- [Example resource 2](https://www.freecodecamp.org/learn/responsive-web-design/) - This is an amazing course which helped me to understand the concept and workflow.
-- [Example resource 3](https://materialui.co/colors/) - This helped me for choosing the color while designing the app.
-- [Example resource 4](https://htmlcheatsheet.com/css/) - This cheatsheet helpep me while i forgot the syntax or the pattern. This is helpful.
+- [Resource 1](https://fonts.google.com/specimen/Red+Hat+Display) - This helped me for choosing the font what i want.
+- [Resource 2](https://www.freecodecamp.org/learn/responsive-web-design/) - This is an amazing course which helped me to understand the concept and workflow.
+- [Resource 3](https://materialui.co/colors/) - This helped me for choosing the color while designing the app.
+- [Resource 4](https://htmlcheatsheet.com/css/) - This cheatsheet helpep me while i forgot the syntax or the pattern. This is helpful.
 
 ## Author
 
