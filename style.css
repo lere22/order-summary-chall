@@ -13,11 +13,6 @@ body {
   }
 }
 
-p {
-  font-size: 16px;
-  color: #546e7a;
-}
-
 .container {
   width: 100%;
   height: auto;
@@ -32,6 +27,7 @@ p {
   background-color: #fff;
   border: none;
   border-radius: 10px;
+  box-shadow: 0 20px 20px rgba(56, 56, 56, 0.19);
 }
 
 .img-header {
@@ -40,57 +36,21 @@ p {
   border-top-right-radius: 10px;
 }
 
+/* card body */
 .card-body {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 3rem 2rem;
 }
 
-.price-plan {
-  padding: 1rem 0 1rem 0;
-  margin: 1rem 1rem 1rem 1rem;
-  background-color: hsl(225, 100%, 98%);
-  border-radius: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+/* title & description */
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #78909c;
 }
 
-.price-plan img {
-  align-self: center;
-  justify-self: center;
-}
-
-.plan {
-  align-self: center;
-  justify-self: start;
-}
-
-.plan h5,
-h6 {
-  padding: 0;
-  margin: 0;
-}
-
-.change {
-  align-self: center;
-  justify-self: center;
-}
-
-button {
-  padding: 1rem;
-  margin: 0.8rem 1rem 1rem 1rem;
-  width: 91%;
-  background-color: hsl(245, 75%, 52%);
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-}
-
-.cancel-order {
-  margin-bottom: -1rem;
-}
-
-.cancel-order a {
-  text-decoration: none;
-  color: #546e7a;
+.title h2 {
+  font-weight: 900;
 }
 
 .title,
@@ -100,12 +60,117 @@ button {
   text-align: center;
 }
 
+/* price plan */
+.price-plan {
+  padding: 1rem 0 1rem 0;
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 70px 100px 1fr;
+  grid-column-gap: 20px;
+}
+
+.price-plan img {
+  align-self: center;
+  justify-self: end;
+}
+
+.plan {
+  align-self: center;
+  justify-self: auto;
+}
+
+.plan h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.plan h5 {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.plan h6 {
+  color: #78909c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* change btn */
+.change {
+  align-self: center;
+  justify-self: center;
+}
+
+.change a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.change a:hover {
+  text-decoration: none;
+  color: hsl(224, 48%, 65%);
+}
+
+/* button */
+button {
+  padding: 1rem;
+  margin: 0.8rem 1rem 1rem 1rem;
+  width: 91%;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 20px 20px rgba(56, 56, 56, 0.19);
+}
+
+button:hover {
+  background-color: hsl(224, 48%, 65%);
+}
+
+button.btn-payment {
+  font-weight: 700;
+}
+
+/* cancel order btn */
+.cancel-order {
+  margin-bottom: -1rem;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.cancel-order a {
+  text-decoration: none;
+  color: #78909c;
+}
+
+.cancel-order a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
 @media (max-width: 992px) {
   .card {
     width: 90%;
     background-color: #fff;
     border: 0;
     border-radius: 10px;
+  }
+
+  .card-body {
+    padding: 1rem 1rem 3rem 1rem;
+  }
+
+  .price-plan {
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    grid-template-columns: 60px 100px 1fr;
+  }
+
+  button {
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    width: 95%;
   }
 }
 
