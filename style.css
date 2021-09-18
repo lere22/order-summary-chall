@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   background: url("images/pattern-background-desktop.svg") no-repeat;
   background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
 }
 
 @media (max-width: 992px) {
@@ -40,26 +41,47 @@ p {
 }
 
 .card-body {
-  padding: 3rem 3rem 3rem 3rem;
-  text-align: center;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .price-plan {
-  padding: 1rem;
-  margin: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
+  margin: 1rem 1rem 1rem 1rem;
   background-color: hsl(225, 100%, 98%);
-  border-radius: 5px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.price-plan img {
+  align-self: center;
+  justify-self: center;
+}
+
+.plan {
+  align-self: center;
+  justify-self: start;
+}
+
+.plan h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.change {
+  align-self: center;
+  justify-self: center;
 }
 
 button {
   padding: 1rem;
-  margin-bottom: 1rem;
-  width: 100%;
+  margin: 0.8rem 1rem 1rem 1rem;
+  width: 91%;
   background-color: hsl(245, 75%, 52%);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
-  box-shadow: #000;
 }
 
 .cancel-order {
@@ -69,6 +91,13 @@ button {
 .cancel-order a {
   text-decoration: none;
   color: #546e7a;
+}
+
+.title,
+.desc,
+.btn-payment,
+.cancel-order {
+  text-align: center;
 }
 
 @media (max-width: 992px) {
