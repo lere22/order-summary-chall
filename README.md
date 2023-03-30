@@ -61,4 +61,4 @@ I want to continue this project to collaborate with my other projects in the fut
 ## Author
 
 - Code by - Putu Rele Bhayu Sakti
-- Frontend Mentor - [@lere22](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@lere22](https://www.frontendmentor.io/profile/lere22)
